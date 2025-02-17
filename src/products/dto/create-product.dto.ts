@@ -19,9 +19,6 @@ export class CreateProductDto
   @ApiProperty({ example: 2500.99, description: 'Precio del producto' })
   price: number;
 
-  @ApiProperty({ example: 10, description: 'Cantidad en stock' })
-  stock: number;
-
   @ApiProperty({
     example:
       'https://www.kabifperu.com/imagenes/prod-24022021171348-laptop-asus-gl704g-i7-8750h-gl704gw-ev057t-gaming-17-i7-512sdd-16gb-rtx-2070-8g-w10-mochila-mouse-deta.png',
